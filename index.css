@@ -1,0 +1,178 @@
+body{
+	background:#36465D;
+	font-size:large;
+	margin:0px !important;
+	padding:0px !important;
+}
+
+#site-intro
+{
+	height:300px;
+	width:100%;
+	background-color:#2A2E3E;
+	position:relative;
+	top:100px;
+	margin:0px;
+	padding:0px;
+	text-align: center;
+	
+}
+
+#site-intro h1
+{
+	color:#D93240;
+	font-family:always;
+	font-size:5em;
+	position: relative;
+	top:30px;
+}
+
+#site-intro h3
+{
+	color:white;
+	position: relative;
+	top:10px;
+	font-size: 3em;
+	font-family: intro;
+}
+
+#site-intro p
+{
+	display: block;
+	color: grey;
+	position: relative;
+	top:30px;
+	text-align:center;
+	font-size:20px;
+}
+
+#login-label{
+	height:60px;
+	width:15%;
+	position:relative;
+	top:150px;
+	background-color: #ff9800;
+	color:white;
+	margin:0px;
+	padding:0px;
+	font-size: 4em;	
+	left:15%;
+	border-radius: 7px;
+	cursor: pointer;
+	
+}
+
+#signup-label
+{
+	height:60px;
+	width:15%;
+	position:relative;
+	top:80px;
+	left:70%;
+	background-color: #448aff;
+	color:white;
+	margin:0px;
+	padding:0px;
+	border-radius: 7px;
+	cursor:pointer;
+}
+
+#login-label h4{
+	font-size:0.4em;
+	position: relative;
+	top: 13px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#signup-label h4{
+	font-size:1.6em;
+	position: relative;
+	top: 13px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+
+#login{
+	display:none;
+	height: 400px;
+	width: 500px;
+	background-color: #ff9800;
+	z-index: 100;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 10px;
+	
+}
+
+form{
+	text-align: center;
+}
+
+#login form{
+	position: relative;
+	top:10%;
+}
+
+#signup{
+	display:none;
+	height: 400px;
+	width: 500px;
+	background-color: #448aff;
+	z-index: 101;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 10px;
+}
+
+.enclose{
+	display:none;
+	position: absolute;
+	background: black;
+	opacity: 0.4;
+	z-index: 49;
+	height: 100%;
+	width:100%;
+	top:0;
+	left:0;
+	
+	
+}
+
+.ele
+{
+	margin:10px;
+	width: 80%;
+	height: 50px;
+	
+}
+
+.subbut
+{
+	height:60px;
+	width:40%;
+	background-color: #df7800;
+	color:white;	
+	border:0px;
+	border-radius: 7px;
+	position: relative;
+	top:10px;
+}
+
+.close
+{
+	position:absolute;
+	
+	opacity:0.7;
+	top:20px;
+	right:20px;
+}
+

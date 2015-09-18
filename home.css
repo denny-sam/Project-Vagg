@@ -1,0 +1,411 @@
+body{
+	background:url("NoiseBG2.png") repeat,#36465D;
+	font-size:large;
+}
+
+.site-name
+{
+	color:#D93240;
+	font-family:always;
+	font-size:2.4em;
+	position:relative;
+	left:2%;
+	top:10%;
+	display: inline;	
+}
+
+.intro
+{
+	color:#fff;
+	font-size:25px;
+	font-family:intro;
+	position: relative;
+	left:25px;
+	top: 7%;
+}
+
+#search
+{
+	width:100%;
+	position:absolute;
+	min-width: 50%;
+	top:20%;
+	text-align: right;
+	height:auto;
+}
+
+#search form
+{
+	position: static;
+	margin-right: 3%;
+}
+
+#search #searchbox
+{
+	background-color: transparent;
+	border:1px ;
+	border:0px;
+	border-bottom:1px  solid #727272;
+	color: grey;
+	font-size: 16px;
+	top:-15px;
+}
+
+#search .searchbutton
+{
+	background-color:#262838;
+	color:#d2d2d2;
+	border:0px;
+	height: 35px;
+	width: 35px;
+	border-radius:20px;
+}
+
+.header
+{
+	background:#2A2E3E;
+	position:fixed;
+	margin:0px auto;
+	padding:0px;
+	width:100%;
+	height:7.5%;
+	z-index:10;
+	box-shadow: 0px 2px 6px black;
+}
+
+#menu
+{
+	position: fixed;
+	width:8%;
+	background:#3A3E4E;
+	z-index:0;
+	top:7%;
+	box-shadow: 0px 3px 6px black;
+	bottom: 0px;
+}
+
+#menu ul{
+	width:100%;
+	height:100%;
+	top:0;
+	position: relative;
+	padding:0px;
+	padding-left:18%;
+	margin:0px;
+	left:0px;
+	
+}
+#menu li{
+	list-style: none;
+	margin: 40px 0px;
+}
+.ellipse
+{
+	width:70px;
+	height:70px;
+	border-radius: 100px;
+	background-color: #f44336; 
+	position: relative;
+	left:-10px;
+	margin: 0px auto;
+	box-shadow: 1px 0px 6px #111;
+	
+}
+
+.ellipse img{
+	height:50px;
+	width:50px;
+	position: relative;
+	
+	top:10px;
+	left:10px;
+	
+}
+
+#noposts{
+	width: 90%;
+	position: absolute;
+	top:40%;
+	margin:10px auto;
+	
+	text-align: center;
+	left:10%;
+	font-family:gothic;
+	font-size: 4em;
+	color:#203040;
+	
+	
+	
+}
+.post
+{
+	position:relative;
+	top:20px;
+	left:20%;
+	width:80%;
+	margin: 15px;
+	margin-top: 40px;
+
+
+
+}
+
+.avatar
+{
+	position: relative;
+	top:0px;
+	left:0px;
+	height:60px;
+	width: 60px;
+	border-radius:35px;
+	background-color: white;
+	box-shadow: 1px 1px 3px #111;
+}
+
+.content
+{
+	position: relative;
+	top:-60px;
+	left: 80px;
+	width:80%;
+	background:url("noise background.png"), #fff;
+	
+	color:#333;
+	border-radius: 15px;
+	padding:0px;
+	margin:0px;
+	
+	 
+}
+.content h2{
+	padding:0;
+	margin:0;
+	font-size: x-large;
+}
+.content .title{
+	color:#66768D;
+	font-family:gothic;
+	width:100%;
+	padding:13px 15px;
+	
+	
+}
+.content p{
+	margin:0px;
+	padding: 0px;
+	font-family:comici, "Sans serif";
+	color:#626a72;
+	font-size: 18px;
+	line-height:25px;
+	white-space: pre-line;
+}
+.content .para{
+	line-height:25px;
+	padding:10px;
+	padding-left: 15px;
+}
+
+.content h5{
+	color:#4a9cf0;
+	font-family:courier,"Gothic sans", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size:1.2em;
+	letter-spacing: 5px;
+	margin-bottom: 0px;
+	position:relative;
+	left:13px;
+}
+
+.content hr{
+	height:2px;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	background-color:#d2dad2;
+}
+
+.content .votes{
+	height:40px;
+	text-align: center;
+	color:white;
+	margin:0px;
+	padding:0px;
+	
+	
+}
+
+.numdowns, .numups{
+	margin:0px;
+	position:absolute;
+	display: inline;
+	height: 40px;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top:7px;
+	border:0px;
+}
+
+.numups{
+	position:absolute;
+	color: #143b7c;
+	border-bottom-left-radius: 15px;
+	left:0px;
+	margin:0px;
+	border-right:2px solid #d2dad2;
+	border-top: 2px solid #d2dad2;
+}
+.numdowns{
+	position: absolute;
+	color: #831e17;
+	border-bottom-right-radius: 15px;
+	right: 0px;
+	border-left:2px solid #d2dad2;
+	border-top: 2px solid #d2dad2;
+}
+
+
+.butupvote, .butdownvote{
+	width:43%;
+	height: 100%;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	border-top: 2px solid #d2dad2;
+}
+
+
+.butupvote{
+	color:#2980b9;
+	border-right: 2px solid #d2dad2;
+}
+
+.butdownvote{
+	color: #c0392b;
+}
+.n{
+	background-color: #ff9800;
+}
+
+.h{
+	background: #448aff;	
+}
+
+.p{
+	background: #8bc34a;
+}
+.t{
+	background: #009688;
+}
+.l{
+	background: #f44336;
+}
+
+#votes{
+	border:1px solid grey;
+}
+.colors{
+	color: #f44336;
+	color:#2A2E3E;
+	color:#3A3E4E;
+	color:#727272;
+	color:#dkf;
+	color:#dkf;
+	color:#dkf;
+	color:#dkf;
+}
+
+label{
+	color:white;
+}
+
+.newpost{
+	display: block;
+	position:relative;
+	right:-40px;
+	top:10px;
+	width: 80%;
+
+}
+
+#submitpostbutton
+{
+	width:100%;
+	height: 40px;
+	background-color: #8bc34a;
+	color:white;
+	font-family: sans-serif;
+	font-size: 20px;
+	border: 0px;
+	border-radius: 5px;
+}
+
+.cover{
+	width:100%;
+	height:300px;
+	background:url("coverbg.jpg");
+	background-position: 30%;
+}
+
+.dp{
+	width:200px;
+	height: 200px;
+	border-radius: 200px;
+	background: white;
+	position: relative;
+	top:25%;
+	left:45%;
+}
+
+.dp img{
+	height:200px;
+	width:200px;
+}
+
+#profilepic{
+	opacity:0;
+	position:absolute;	
+	width:200px ;
+	height:35px;
+	overflow:hidden;
+	top:45%;
+	
+}
+
+.above{
+	opacity:0.0;
+	height:35px;
+	width:205px;
+	background-color:black;
+	position: absolute;
+	right:40%;
+	top:25%;
+	color:grey;
+	text-align: center;
+	font:verdana;
+	font-size: x-large;
+	border-radius: 10px;
+	z-index: 100;
+	
+}
+.above:hover{
+	opacity:0.8;
+	cursor:pointer;
+}
+
+.time{
+	float:right;
+	margin:2px;
+	color:grey;
+	font-size: 13px;
+	position: relative;
+	right:10px;
+	top: 7px;
+}
+
+.butupvoted, .butdownvoted{
+	color:#a2aaa2;
+	background: #d2dad2;
+	
+}
+
+
+
