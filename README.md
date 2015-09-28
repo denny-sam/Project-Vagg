@@ -9,16 +9,16 @@
 ###Screenshots
 
 
-#####Index
+####Index
 ![index](https://raw.githubusercontent.com/itsdennian/Project-Vagg/master/Screenshots/index.png)
 
-#####Home
+####Home
 ![main](https://raw.githubusercontent.com/itsdennian/Project-Vagg/master/Screenshots/main.png)
 
-#####New Post
+####New Post
 ![newpost](https://raw.githubusercontent.com/itsdennian/Project-Vagg/master/Screenshots/newpost.png)
 
-#####Profile
+####Profile
 ![profile](https://raw.githubusercontent.com/itsdennian/Project-Vagg/master/Screenshots/profile.png)
 
 
