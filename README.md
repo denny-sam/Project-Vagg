@@ -1,21 +1,24 @@
 # Project-Vagg
 
+######This website enables you to publish articles/blogs/posts.
+######People can follow or unfollow you.
+######The posts of all the people you follow appears on your wall.
+######You can like or dislike a post.
+######Top posts are displayed on the trending section.
+
+###Screenshots
+
+
+#####Index
 ![index](https://raw.githubusercontent.com/itsdennian/Project-Vagg/master/Screenshots/index.png)
 
-This is our mini project for 3rd year graduation. 
-
+#####Home
 ![main](https://raw.githubusercontent.com/itsdennian/Project-Vagg/master/Screenshots/main.png)
 
-This website enables you to publish articles/blogs/posts. 
-
+#####New Post
 ![newpost](https://raw.githubusercontent.com/itsdennian/Project-Vagg/master/Screenshots/newpost.png)
 
-People can follow or unfollow you.
-
+#####Profile
 ![profile](https://raw.githubusercontent.com/itsdennian/Project-Vagg/master/Screenshots/profile.png)
 
-The posts of all the people you follow appears on your wall.
 
-You can like or dislike a post.
-
-Top posts are displayed on the trending section.
